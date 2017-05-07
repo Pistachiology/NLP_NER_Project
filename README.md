@@ -37,4 +37,11 @@ python gen_test.py > test_data.txt
 ก่อน gen_test.py เอาไฟล์ที่จะทำเทสใส่ในโฟลเดอร์ data ก่อนอพ
 สุดท้ายก็ crf_test -m model.txt test_data.txt
 crf_test -m model.txt test_data.txt > answer.txt`
+python ans_to_text_segment.py answer.txt data/POL1101_notag.CUT
+python merge_result.py Result/person_and_org/POL1101_notag.CUT ML/output/POL1101_notag.CUT  merged_result.txt
 ```
+
+
+
+
+# Merge ML and Pattern base

@@ -1,0 +1,6 @@
+{
+    "ML_OUTDIR": "ML_OUTDIR",
+    "PATTERN_OUTDIR": "PATTERN_OUTDIR",
+    "INPUT_DIR": "data",
+    "template": "template"
+}

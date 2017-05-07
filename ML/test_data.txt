@@ -1,3 +1,4 @@
+นาย prefix_per none none none common none firstname none
 ปองพล none none none none none none firstname none
 SPACE none none none none none none none none 
 อดิเรกสาร none none none none none none none none
@@ -12,6 +13,7 @@ SPACE none none none none none none none none
 เลขาธิการ none none none none common none none none
 พรรค none none prefix_org none common none none none
 ชาติไทย none none none none none none none lastname 
+ได้ none none none none common none none none
 เปิด none none none none common none none none
 แถลงข่าว none none none none common none none none
 อย่าง none none none none common none none none
@@ -31,6 +33,7 @@ SPACE none none none none none none none none
 รมว. none none none none common none none none
 เกษตร none none none none common none firstname none
 ฯ none none none none common none none none
+ว่า none none none none common none none none
 SPACE none none none none none none none none 
 ยัง none none none none common none firstname none
 ไม่ none none none none common none none none
@@ -40,6 +43,7 @@ SPACE none none none none none none none none
 อย่าง none none none none common none none none
 เป็น none none none none common none none none
 ทางการ none none none none common none none none
+" none none none none none none none none
 ผม none none none none common none firstname none
 ก็ none none none none common none none none
 เคย none none none none common none none none
@@ -55,6 +59,7 @@ SPACE none none none none none none none none
 เคย none none none none common none none none
 เข้า none none none none common none none none
 กาสิโน none none none none none none none none
+และ none none none none common none firstname none
 ไม่ none none none none common none none none
 มี none none none none common none firstname none
 ญาติ none none none none common none none none
@@ -69,6 +74,7 @@ SPACE none none none none none none none none
 ปองพล none none none none none none firstname none
 SPACE none none none none none none none none 
 กล่าว none none none none common none none none
+นาย prefix_per none none none common none firstname none
 ปองพล none none none none none none firstname none
 SPACE none none none none none none none none 
 ย้ำ none none none none common none none none
@@ -89,6 +95,7 @@ SPACE none none none none none none none none
 แต่ none none none none common none none none
 ไป none none none none common none none none
 ทำงาน none none none none common none none none
+และ none none none none common none firstname none
 ก่อน none none none none common none none none
 เดินทาง none none none none common none none none
 SPACE none none none none none none none none 
@@ -99,6 +106,7 @@ SPACE none none none none none none none none
 นายกรัฐมนตรี prefix_per none none none common none none none
 ทุก none none none none common none none none
 ครั้ง none none none none common none none none
+อีกทั้ง none none none none common none none none
 ก่อน none none none none common none none none
 เดินทาง none none none none common none none none
 ไป none none none none common none none none
@@ -127,6 +135,7 @@ SPACE none none none none none none none none
 การ none none prefix_org none common none firstname none
 ประมง none none none none common none firstname none
 SPACE none none none none none none none none 
+นาย prefix_per none none none common none firstname none
 ปองพล none none none none none none firstname none
 SPACE none none none none none none none none 
 กล่าว none none none none common none none none
@@ -160,10 +169,12 @@ SPACE none none none none none none none none
 หัวหน้า none none none none common none none none
 พรรค none none prefix_org none common none none none
 ชาติไทย none none none none none none none lastname 
+เลขาธิการ none none none none common none none none
 พรรค none none prefix_org none common none none none
 ชาติไทย none none none none none none none lastname 
 SPACE none none none none none none none none 
 กล่าว none none none none common none none none
+สำหรับ none none none none common none none none
 การ none none prefix_org none common none firstname none
 ปรับ none none none none common none none none
 SPACE none none none none none none none none 
@@ -173,6 +184,7 @@ SPACE none none none none none none none none
 ชาติไทย none none none none none none none lastname 
 SPACE none none none none none none none none 
 นั้น none none none none common none none none
+นาย prefix_per none none none common none firstname none
 บรรหาร none none none none none none firstname none
 SPACE none none none none none none none none 
 ได้ none none none none common none none none
@@ -196,6 +208,7 @@ SPACE none none none none none none none none
 ออก none none none none common none none none
 จาก none none none none common org firstname none
 ตำแหน่ง none none none none common none none none
+แล้ว none none none none common none none none
 ให้ none none none none common none none none
 นาย prefix_per none none none common none firstname none
 ประภัตร none none none none none none none none
@@ -212,6 +225,7 @@ SPACE none none none none none none none none
 รมว. none none none none common none none none
 เกษตร none none none none common none firstname none
 ฯ none none none none common none none none
+นาย prefix_per none none none common none firstname none
 สนธยา none none none none common none firstname none
 SPACE none none none none none none none none 
 คุณปลื้ม none none none none none none none none
@@ -225,6 +239,7 @@ SPACE none none none none none none none none
 SPACE none none none none none none none none 
 รมช. none none none none common none none none
 มหาดไทย none none none none common org none none
+ส่วน none none none none common none firstname none
 SPACE none none none none none none none none 
 นาย prefix_per none none none common none firstname none
 จองชัย none none none none none none none none
@@ -241,6 +256,7 @@ SPACE none none none none none none none none
 SPACE none none none none none none none none 
 รมช. none none none none common none none none
 คมนาคม none none none none common none none none
+สำหรับ none none none none common none none none
 รัฐมนตรี prefix_per none none none common none none none
 หน้า none none none none common none none none
 ใหม่ none none none none common org firstname none
@@ -261,6 +277,7 @@ SPACE none none none none none none none none
 รมช. none none none none common none none none
 แรงงาน none none none none common none none none
 ฯ none none none none common none none none
+นาย prefix_per none none none common none firstname none
 ปองพล none none none none none none firstname none
 SPACE none none none none none none none none 
 ย้ำ none none none none common none none none
@@ -282,6 +299,7 @@ SPACE none none none none none none none none
 ไม่ none none none none common none none none
 มี none none none none common none firstname none
 ปัญหา none none none none common none none none
+ผู้ none none none none common none none none
 สื่อ none none none none common none none none
 ข่าว none none none none common none none none
 ถาม none none none none common none none none
@@ -312,6 +330,7 @@ SPACE none none none none none none none none
 เอดีบี none none none none none none none none
 SPACE none none none none none none none none 
 หรือไม่ none none none none common none none none
+นาย prefix_per none none none common none firstname none
 ปองพล none none none none none none firstname none
 SPACE none none none none none none none none 
 กล่าว none none none none common none none none
@@ -327,6 +346,7 @@ SPACE none none none none none none none none
 ไม่ none none none none common none none none
 มี none none none none common none firstname none
 ปัญหา none none none none common none none none
+เรื่อง none none none none common none none none
 เงินกู้ none none none none common none none none
 ดังกล่าว none none none none common none none none
 ก็ none none none none common none none none
@@ -348,6 +368,7 @@ SPACE none none none none none none none none
 พรรค none none prefix_org none common none none none
 มา none none none none common none firstname none
 แล้ว none none none none common none none none
+ผู้ none none none none common none none none
 สื่อ none none none none common none none none
 ข่าว none none none none common none none none
 ถาม none none none none common none none none
@@ -369,6 +390,7 @@ SPACE none none none none none none none none
 ชาติไทย none none none none none none none lastname 
 ต่อไป none none none none common none none none
 หรือไม่ none none none none common none none none
+นาย prefix_per none none none common none firstname none
 ปองพล none none none none none none firstname none
 SPACE none none none none none none none none 
 ย้อน none none none none common none none none
@@ -388,6 +410,7 @@ SPACE none none none none none none none none
 อยู่ none none none none common none firstname none
 สิ none none none none common none none none
 " none none none none none none none none
+ขนาด none none none none common none none none
 คลื่น none none none none common none none none
 ลม none none none none common none firstname none
 ใน none none none none common none firstname none
@@ -409,6 +432,7 @@ SPACE none none none none none none none none
 ใน none none none none common none firstname none
 พรรค none none prefix_org none common none none none
 ชาติไทย none none none none none none none lastname 
+ผู้ none none none none common none none none
 สื่อ none none none none common none none none
 ข่าว none none none none common none none none
 ถาม none none none none common none none none
@@ -428,6 +452,7 @@ SPACE none none none none none none none none
 ของ none none none none common none firstname none
 พรรค none none prefix_org none common none none none
 ชาติไทย none none none none none none none lastname 
+นาย prefix_per none none none common none firstname none
 ปองพล none none none none none none firstname none
 SPACE none none none none none none none none 
 กล่าว none none none none common none none none
@@ -449,6 +474,7 @@ SPACE none none none none none none none none
 น่า none none none none common none none none
 เป็น none none none none common none none none
 ปัญหา none none none none common none none none
+ใน none none none none common none firstname none
 ตำแหน่ง none none none none common none none none
 ของ none none none none common none firstname none
 SPACE none none none none none none none none 
@@ -462,6 +488,7 @@ SPACE none none none none none none none none
 ลา none none none none common none firstname none
 ออก none none none none common none none none
 ไป none none none none common none none none
+นาย prefix_per none none none common none firstname none
 ปัญจะ none none none none none none firstname lastname 
 SPACE none none none none none none none none 
 ถือว่า none none none none common none none none
@@ -494,6 +521,7 @@ SPACE none none none none none none none none
 ดำรง none none none none common none firstname lastname 
 ตำแหน่ง none none none none common none none none
 แทน none none none none common none firstname none
+ส่วน none none none none common none firstname none
 การ none none prefix_org none common none firstname none
 ปรับ none none none none common none none none
 เปลี่ยน none none none none common none firstname none
@@ -518,6 +546,7 @@ SPACE none none none none none none none none
 พรรค none none prefix_org none common none none none
 แทน none none none none common none firstname none
 นั้น none none none none common none none none
+นาย prefix_per none none none common none firstname none
 ปองพล none none none none none none firstname none
 SPACE none none none none none none none none 
 กล่าว none none none none common none none none
@@ -530,6 +559,7 @@ SPACE none none none none none none none none
 เป็น none none none none common none none none
 เรื่อง none none none none common none none none
 ธรรมดา none none none none common none none lastname 
+สำหรับ none none none none common none none none
 นาย prefix_per none none none common none firstname none
 สนธยา none none none none common none firstname none
 SPACE none none none none none none none none 
@@ -554,6 +584,7 @@ SPACE none none none none none none none none
 พรรค none none prefix_org none common none none none
 ชาติไทย none none none none none none none lastname 
 ได้ none none none none common none none none
+ส่วน none none none none common none firstname none
 SPACE none none none none none none none none 
 นาย prefix_per none none none common none firstname none
 ประภัตร none none none none none none none none
@@ -572,6 +603,7 @@ SPACE none none none none none none none none
 ฯ none none none none common none none none
 แทน none none none none common none firstname none
 นั้น none none none none common none none none
+นาย prefix_per none none none common none firstname none
 ปองพล none none none none none none firstname none
 SPACE none none none none none none none none 
 กล่าว none none none none common none none none
@@ -588,6 +620,7 @@ SPACE none none none none none none none none
 ทำงาน none none none none common none none none
 ด้วย none none none none common none none none
 สมอง none none none none common none none none
+ขณะที่ none none none none common none none none
 งาน none none none none common none none none
 ใน none none none none common none firstname none
 กระทรวง none none prefix_org none common none none none
@@ -613,6 +646,7 @@ SPACE none none none none none none none none
 ให้ none none none none common none none none
 ไป none none none none common none none none
 แล้ว none none none none common none none none
+ด้าน none none none none common none none none
 ความ none none none none common none none none
 เคลื่อนไหว none none none none common none none none
 ของ none none none none common none firstname none
@@ -630,6 +664,7 @@ SPACE none none none none none none none none
 ช่วง none none none none common none firstname none
 บ่าย none none none none common none firstname none
 วานนี้ none none none none common none none none
+ได้ none none none none common none none none
 เป็น none none none none common none none none
 ประธาน none none none none common none firstname lastname 
 เปิด none none none none common none none none
@@ -639,6 +674,7 @@ SPACE none none none none none none none none
 ราชภัฏ none none none none none none none none
 ระดับ none none none none common none none none
 ชาติ none none none none common none firstname none
+ใน none none none none common none firstname none
 ฐานะ none none none none common none firstname lastname 
 นายก prefix_per none none none common none none none
 สภา none none prefix_org none common none firstname none
@@ -650,6 +686,7 @@ SPACE none none none none none none none none
 ที่ none none none none common none none none
 โรงแรม none none prefix_org none common none none none
 รอยัลปริ๊นเซส none none none none none none none none
+หลังจาก none none none none common none none none
 เปิด none none none none common none none none
 การ none none prefix_org none common none firstname none
 ประชุม none none none none common none firstname none
@@ -674,6 +711,7 @@ SPACE none none none none none none none none
 ร่วม none none none none common none firstname none
 ประชุม none none none none common none firstname none
 ได้ none none none none common none none none
+ส่วน none none none none common none firstname none
 ที่ none none none none common none none none
 SPACE none none none none none none none none 
 พรรค none none prefix_org none common none none none
@@ -705,6 +743,7 @@ SPACE none none none none none none none none
 ปรับ none none none none common none none none
 คณะ none none prefix_org none common none none none
 รัฐมนตรี prefix_per none none none common none none none
+ผู้ none none none none common none none none
 สื่อ none none none none common none none none
 ข่าว none none none none common none none none
 รายงาน none none none none common none none none
@@ -724,6 +763,7 @@ SPACE none none none none none none none none
 จาก none none none none common org firstname none
 โรงแรม none none prefix_org none common none none none
 รอยัลปริ๊นเซส none none none none none none none none
+คณะ none none prefix_org none common none none none
 รัฐมนตรี prefix_per none none none common none none none
 ของ none none none none common none firstname none
 พรรค none none prefix_org none common none none none
@@ -753,6 +793,7 @@ SPACE none none none none none none none none
 เซฟเฮ้าส์ none none none none none none none none
 แห่ง none none none none common none none none
 หนึ่ง none none none none common none firstname none
+ขณะที่ none none none none common none none none
 SPACE none none none none none none none none 
 นาย prefix_per none none none common none firstname none
 ปัญจะ none none none none none none firstname lastname 
@@ -771,6 +812,7 @@ SPACE none none none none none none none none
 SPACE none none none none none none none none 
 ที่ none none none none common none none none
 ทำเนียบรัฐบาล none none none none common none none none
+พอดี none none none none common none firstname lastname 
 บังเอิญ none none none none common none firstname none
 SPACE none none none none none none none none 
 พล.ต. prefix_per none none none common none none none
@@ -780,6 +822,7 @@ SPACE none none none none none none none none
 SPACE none none none none none none none none 
 ลา none none none none common none firstname none
 ออก none none none none common none none none
+มา none none none none common none firstname none
 ถึง none none none none common none none none
 จุด none none none none common none firstname none
 นี้ none none none none common none firstname none
@@ -795,6 +838,7 @@ SPACE none none none none none none none none
 นามสกุล none none none none common none none none
 SPACE none none none none none none none none 
 ขจรประศาสน์ none none none none none none none none
+มี none none none none common none firstname none
 การ none none prefix_org none common none firstname none
 ปรับ none none none none common none none none
 SPACE none none none none none none none none 
@@ -803,6 +847,7 @@ SPACE none none none none none none none none
 พรรค none none prefix_org none common none none none
 ประชาธิปัตย์ none none none none none none none none
 " none none none none none none none none
+เมื่อ none none none none common none none none
 เวลา none none none none common none none none
 SPACE none none none none none none none none 
 16.40 none none none none none none none none
@@ -839,6 +884,7 @@ SPACE none none none none none none none none
 ทำเนียบรัฐบาล none none none none common none none none
 SPACE none none none none none none none none 
 ว่า none none none none common none none none
+ขณะนี้ none none none none common none none none
 ได้รับ none none none none common none none none
 รายชื่อ none none none none common none none none
 ผู้ none none none none common none none none
@@ -855,6 +901,7 @@ SPACE none none none none none none none none
 ใหม่ none none none none common org firstname none
 เรียบร้อย none none none none common none none lastname 
 แล้ว none none none none common none none none
+เมื่อ none none none none common none none none
 สำนัก none none prefix_org none common org none none
 เลขาธิการ none none none none common none none none
 SPACE none none none none none none none none 
@@ -876,6 +923,7 @@ SPACE none none none none none none none none
 ยืนยัน none none none none common none none none
 กลับ none none none none common none none none
 มา none none none none common none firstname none
+เลขาธิการ none none none none common none none none
 SPACE none none none none none none none none 
 ครม. none none none none common none none none
 กล่าว none none none none common none none none
@@ -894,6 +942,7 @@ SPACE none none none none none none none none
 SPACE none none none none none none none none 
 สำนัก none none prefix_org none common org none none
 พระราชวัง none none none none common none none none
+เพื่อ none none none none common none none none
 นำ none none none none common none firstname none
 รายชื่อ none none none none common none none none
 ทั้งหมด none none none none common none none none
@@ -901,6 +950,7 @@ SPACE none none none none none none none none
 ฯ none none none none common none none none
 SPACE none none none none none none none none 
 ต่อไป none none none none common none none none
+คาด none none none none common none none none
 ว่า none none none none common none none none
 SPACE none none none none none none none none 
 สำนัก none none prefix_org none common org none none

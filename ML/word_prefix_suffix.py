@@ -56,9 +56,9 @@ class WordParser:
     def _parse_sentence(self, sentence):
         parsed_sentence = []
         words = sentence.split("|")
-        if words[0] == "":
+        if len(words) and words[0] == "":
             words = words[1:]
-        if words[-1] == "":
+        if len(words) and words[-1] == "":
             words = words[:-1]
         skip_ = 0
         for idx, word in enumerate(words):

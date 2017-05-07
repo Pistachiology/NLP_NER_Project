@@ -42,6 +42,8 @@ class WordParser:
         with open(filename, "r") as f:
             content = f.read()
         sentences = content.split("\n")
+        while sentences[-1] == "":
+            sentences = sentences[:-1]
         i = 0
         parsed_sentences = []
         for idx, sentence in enumerate(sentences):

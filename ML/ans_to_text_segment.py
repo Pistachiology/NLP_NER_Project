@@ -24,6 +24,7 @@ def dump_file(sentences, fn):
             if word["class"] != "none":
                 output += "({})".format(word["class"])
             output += "|"
+        output += "\n"
     with open("{dir}/{fn}".format(dir=OUTPUT_DIR, fn=fn), "w") as f:
         f.write(output)
             

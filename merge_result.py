@@ -29,10 +29,12 @@ def do_merge(pattern_file, ml_file, output_file=None):
             wptn = ptn["sentences"][i]["words"][j]
             wml = ml["sentences"][i]["words"][j]
             # assert(wptn["word"] == wml["word"])
-            if wptn["class"] != "none":
+            if wptn["class"].lower() != "none":
 		wclass = wptn["class"].lower()
-            elif wml["class"] != "none":
+            elif wml["class"].lower() != "none":
                 wclass = wml["class"].lower()
+            else:
+                wclass = "none"
             word = { "word": wptn["word"], "class": wclass } 
             words.append(word)
         sentences.append( { "words": words } )

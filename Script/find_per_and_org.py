@@ -16,8 +16,8 @@ def is_empty(string):
             return False
     return True
 
-def find_person_and_org():
-    directory = "../Data/untag_per_v2_u8/"
+def find_person_and_org(directory = "../Data/untag_per_v2_u8/"):
+    
     nameOfWholeFiles = os.listdir(directory)
     print "[+] List of files in directory",nameOfWholeFiles
     for nameOfFile in nameOfWholeFiles:
@@ -213,4 +213,4 @@ if __name__ == '__main__':
     find_word_org()
     find_back_org()
     find_name_and_abbr_org()
-    find_person_and_org()
+    find_person_and_org(directory="../Data/notag/")

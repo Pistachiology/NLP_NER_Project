@@ -1,6 +1,6 @@
 # NLP\_NER\_Project
 
-# How to get NER
+# How to get NER (Pattern Base)
 1.Adding text file (following format) in NLP_NER_Project/Data/untag_per_v2_u8/  
 ```
 นิกจัง|เจ้าคณะจังหวัด|

@@ -107,7 +107,7 @@ def find_person_and_org():
                     else:
                         words[i] = "SPACE"
                     if backs_org.has_key(words[i]) and is_empty(words[i])==False:
-                        isOrg[i+1]=True
+                        isOrg[i-1]=True
                     i+=1
 
                 # ---- Prefix

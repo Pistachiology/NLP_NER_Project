@@ -11,7 +11,6 @@ abbr_names = dict()
 commons = dict()
 
 def is_empty(string):
-    CountString = len(string)
     for character in string:
         if character != ' ':
             return False
@@ -159,7 +158,7 @@ def find_person_and_org():
             f2.write(answer)
             f2.close()
 
-if __name__ == '__main__':
+def find_front_word_person():
     f = open("../Dictionary/front_word_person.txt","r")
     text = f.read() 
     temp = text.split('\n')
@@ -167,6 +166,7 @@ if __name__ == '__main__':
         fronts_per[re.sub(r'\s+','',front)]=True
     f.close()
 
+def find_back_word_person():
     f = open("../Dictionary/back_word_person.txt","r")
     text = f.read()
     temp = text.split('\n')
@@ -174,6 +174,7 @@ if __name__ == '__main__':
         backs_per[re.sub(r'\s+','',back)]=True
     f.close()
 
+def find_common():
     f = open("../Dictionary/common_utf8.txt","r")
     text = f.read()
     temp = text.split('\n')
@@ -181,6 +182,7 @@ if __name__ == '__main__':
         commons[re.sub(r'\s+','',common)]=True
     f.close()
 
+def find_word_org():
     f = open("../Dictionary/front_word_org.txt","r")
     text = f.read() 
     temp = text.split('\n')
@@ -188,6 +190,7 @@ if __name__ == '__main__':
         fronts_org[re.sub(r'\s+','',front)]=True
     f.close()
 
+def find_back_org():
     f = open("../Dictionary/back_word_org.txt","r")
     text = f.read() 
     temp = text.split('\n')
@@ -195,6 +198,7 @@ if __name__ == '__main__':
         backs_org[re.sub(r'\s+','',front)]=True
     f.close()
 
+def find_name_and_abbr_org():
     f = open("../Dictionary/name_and_abbr_org.txt","r")
     text = f.read() 
     temp = text.split('\n')
@@ -202,4 +206,11 @@ if __name__ == '__main__':
         abbr_names[re.sub(r'\s+','',abbr)]=True
     f.close()
 
+if __name__ == '__main__':
+    find_front_word_person()
+    find_back_word_person()
+    find_common()
+    find_word_org()
+    find_back_org()
+    find_name_and_abbr_org()
     find_person_and_org()
